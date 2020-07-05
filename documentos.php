@@ -29,6 +29,7 @@
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
 				
 <!-- This site is optimized with the Yoast SEO plugin v12.2 - https://yoast.com/wordpress/plugins/seo/ -->
@@ -292,7 +293,7 @@ img.emoji {
 				
 				<input id="myInput" type="text" placeholder="Buscar..">
 
-           
+				
            
             <div class="container-fluid">
                 <div class="container text-center">
@@ -321,32 +322,45 @@ img.emoji {
                                             <table class="table table-hover">
                                             <tr>
                                             <td>
-                                            Claudio Quezada
+														<ul>
+															<li class="datos">Claudio Quezada</li>
+														</ul>
+                                            
                                             </td>
                                             </tr>
                                             <tr>
                                             <td>
-                                            Cristian Parra
+                                            			<ul>
+															<li class="datos">Cristian Parra</li>
+														</ul>
                                             </td>
                                             </tr>
                                             <tr>
                                             <td>
-                                            Juan Otazo
+                                            			<ul>
+															<li class="datos">Juan Opazo</li>
+														</ul>
                                             </td>
                                             </tr>
                                             <tr>
                                             <td>
-                                            Miguel Ángel Carrillo
+                                            			<ul>
+															<li class="datos">Miguel Angel Carrillo</li>
+														</ul>
                                             </td>
                                             </tr>
                                             <tr>
                                             <td>
-                                            Mirna Mardones
+                                            			<ul>
+															<li class="datos">Mirna Mardones</li>
+														</ul>
                                             </td>
                                             </tr>
                                             <tr>
                                             <td>
-                                            SofoWPAdmin
+                                            			<ul>
+															<li class="datos">SofoWPAdmin</li>
+														</ul>
                                             </td>
                                             </tr>
                                             </table>
@@ -366,47 +380,44 @@ img.emoji {
                                         <table class="table table-hover">
                                             <tr>
                                             <td>
-                                            Agricultura del futuro
+                                            			<ul>
+															<li class="datos">INIA</li>
+														</ul>
                                             </td>
                                             </tr>
                                             <tr>
                                             <td>
-                                            CAS
+                                            			<ul>
+															<li class="datos">Jura equinos</li>
+														</ul>
                                             </td>
                                             </tr>
                                             <tr>
                                             <td>
-                                            Calendario Quemas
+                                            			<ul>
+															<li class="datos">Propuestas campaña presidencial</li>
+														</ul>
                                             </td>
                                             </tr>
                                             <tr>
                                             <td>
-                                            INIA
+                                            			<ul>
+															<li class="datos">Agricultura del futuro</li>
+														</ul>
                                             </td>
                                             </tr>
                                             <tr>
                                             <td>
-                                            Jura Equinos
+                                            			<ul>
+															<li class="datos">CAS</li>
+														</ul>
                                             </td>
                                             </tr>
                                             <tr>
                                             <td>
-                                            Propuestas campaña presidencial
-                                            </td>
-                                            </tr>
-                                            <tr>
-                                            <td>
-                                            Agricultura del futuro
-                                            </td>
-                                            </tr>
-                                            <tr>
-                                            <td>
-                                            CAS
-                                            </td>
-                                            </tr>
-                                            <tr>
-                                            <td>
-                                            Calendario Quemas
+														<ul>
+															<li class="datos">Calentario quemas</li>
+														</ul>
                                             </td>
                                             </tr>
                                             </table>
@@ -423,33 +434,43 @@ img.emoji {
                                         </div>
                                         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                         <div class="panel-body">
-                                        <table class="table table-hover">
-                                            <tr>
-                                            <td>
-                                            2020
-                                            </td>
-                                            </tr>
-                                            <tr>
-                                            <td>
-                                            2019
-                                            </td>
-                                            </tr>
-                                            <tr>
-                                            <td>
-                                            2018
-                                            </td>
-                                            </tr>
-                                            <tr>
-                                            <td>
-                                            2017
-                                            </td>
-                                            </tr>
+                                        	<table class="table table-hover">
+												<tr>
+													<td>
+														<ul>
+															<li class="datos">2020</li>
+														</ul>
+													</td>
+													</tr>
+													<tr>
+													<td>
+														<ul>
+															<li class="datos">2019</li>
+														</ul>
+													</td>
+													</tr>
+													<tr>
+													<td>
+														<ul>
+															<li class="datos">2018</li>
+														</ul>
+													</td>
+													</tr>
+													<tr>
+													<td>
+														<ul>
+															<li class="datos">2017</li>
+														</ul>
+													</td>
+												</tr>
                                             </table>
                                         </div>
                                         </div>
                                     </div>
                                 </div>
                         </div>
+
+						
                             <div class="col-sm-8"> 
                             
                             <table class="table table-striped table-hover">
@@ -719,14 +740,21 @@ img.emoji {
 </div>
 
 <script>
+
+	$('.datos').click(function() {
+		var value = $(this).text();
+		$('#myInput').val(value);
+	});
+
 	jQuery(document).ready(function(){
-		jQuery("#myInput").on("keyup", function() {
+		jQuery("#myInput").on("keyup", function() {	
 			var value = jQuery(this).val().toLowerCase();
 			jQuery("#myTable tr").filter(function() {
-			jQuery(this).toggle(jQuery(this).text().toLowerCase().indexOf(value) > -1)
+				jQuery(this).toggle(jQuery(this).text().toLowerCase().indexOf(value) > -1)
 			});
 		});
-		});
+	});
+
 </script>
 
 			<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
